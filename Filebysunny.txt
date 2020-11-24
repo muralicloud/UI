@@ -1,1 +1,3 @@
-Hi I am adding the file to repo.
+Hi I am adding the file to repo
+
+File added commited and modifying..
