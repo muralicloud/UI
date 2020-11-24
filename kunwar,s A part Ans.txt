@@ -1,0 +1,26 @@
+1. The key difference between a  centralized version control system and distributed version control system 
+Ans: the major difference is instead of one single repository (server)  here  every single developer or clint has their own server and they will have copy of their history or new codes and all branches in their local sever or machine, so every user can work locally and disconnected.
+And in the other hand in centralized version control system have one repository (master repository) we to pull everything from master repository and make changes and updated the code direct to master repository. Simply need to commit those changes straight froward into the master repository.
+
+  
+2. List down any two centralized version control system and 2 distributed version control system 
+Ans:             Centralized version control system 
+              1: beanstalk.
+                2: prefroce.
+     
+                      Distributed version control system
+          1: git 
+          2: helix core 
+3: The main advantages of git VCS over other VCS
+    1: Performance :- git performs very strongly and reliably when compared to other version control system.
+    2: Security :- Git is designed specially to maintain the integrity of source code. File contents as well as the relationship between file and directories, tags, commits, versions etc. and secured cryptographically using an algorithm called SHA1.
+    3: Flexibility  :- A key design objective of Git is the kind of flexibility it offers to support several kinds of nonlinear development workflows.
+
+    4: Wide acceptance :- Git offers the type of performance, functionality, security, and flexibility that most developers and teams need to develop their projects. 
+5. Quality open source project :- Git is a widely supported open source project with over ten years of operational history.
+
+4: The different states of a file in the Git VCS
+ Git has three main states that your file can reside in: 
+1: Modified :- Modified means that you have changed the file but have not committed it to your database yet.
+2: Staged :- Staged means that you have marked a modified file in its current version to go into your next commit snapshot.
+3: Commited :- Committed means that the data is safely stored in your local database.
