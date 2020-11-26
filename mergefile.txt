@@ -1,0 +1,3 @@
+This file is for to test merging:)
+
+mergefile.txt was created under newbranch and did checkout to main branch and ran merge command to see if its updates from newbranch to maiabranch and it did.:)
