@@ -1,0 +1,139 @@
+commit 7337a6392e15d9d9b47fb674f8f3c2d9a79f1630
+Merge: 444cc9d 313df87
+Author: Sunny <ambaraiya@gmail.com>
+Date:   Thu Nov 26 11:11:48 2020 -0800
+
+    hghg
+
+commit 313df87fdfd7ece84b3e34ae1fe2897f49971969
+Author: Sunny <ambaraiya@gmail.com>
+Date:   Thu Nov 26 11:07:37 2020 -0800
+
+    msg
+
+commit 444cc9d4ab8daf8fd5af34f315ee7fb54f89c2e5
+Author: Sunny <ambaraiya@gmail.com>
+Date:   Thu Nov 26 11:07:05 2020 -0800
+
+    msg
+
+commit 82e5fdcccff1980171ab3b184404114ce097d013
+Author: Sunny <ambaraiya@gmail.com>
+Date:   Thu Nov 26 11:05:37 2020 -0800
+
+    commiting
+
+commit 79675adabaf92d6f8884ddfc45c22b7931aa9f08
+Author: Sunny <ambaraiya@gmail.com>
+Date:   Thu Nov 26 10:55:08 2020 -0800
+
+    FIle updated
+
+commit 6b677b4aa32cad49a80097458230256d78dcfb97
+Author: murali <murali.protek@gmail.com>
+Date:   Tue Nov 24 17:13:43 2020 -0800
+
+    Cloud
+
+commit 6252f26a00a9bb468918139662ce924734afbf5a
+Author: kunwardhot <74633034+kunwardhot@users.noreply.github.com>
+Date:   Tue Nov 24 14:56:35 2020 -0800
+
+    Add files via upload
+
+commit 730b79dd5191a9288eaa625e63cefb85698fde47
+Author: kunwardhot <74633034+kunwardhot@users.noreply.github.com>
+Date:   Tue Nov 24 14:55:37 2020 -0800
+
+    Create mylogsk.txt
+
+commit e054bc9168649c3064b2f09ffa10fd2c7e68b676
+Author: Harry <bainsharry2018@gmail.com>
+Date:   Tue Nov 24 14:34:03 2020 -0800
+
+    answer to item A
+
+commit 586f1e35777ec5b3335056ea59daaa41ef6c0df9
+Author: Harry <bainsharry2018@gmail.com>
+Date:   Tue Nov 24 14:18:58 2020 -0800
+
+    delete rtf file
+
+commit c001d07cdd62afd18dfbc095b164f366749e3e17
+Author: Harry <bainsharry2018@gmail.com>
+Date:   Tue Nov 24 14:17:07 2020 -0800
+
+    answers to item A
+
+commit 8354818e89c2df409e4c6b0dc1465d2f7deefc48
+Author: Harry <bainsharry2018@gmail.com>
+Date:   Tue Nov 24 14:12:06 2020 -0800
+
+    answers to itemA
+
+commit e18a3ccd68a4ea6ad209a373c0b28d15c0cc7b15
+Author: kunwardhot <74633034+kunwardhot@users.noreply.github.com>
+Date:   Tue Nov 24 12:48:49 2020 -0800
+
+    Create kunwar,s A part Ans.txt
+
+commit 44764b6849550faf0dc84d1a43093840dfbae243
+Author: Sunny <ambaraiya@gmail.com>
+Date:   Mon Nov 23 21:03:29 2020 -0800
+
+    file stashed check
+
+commit fdc456ddfefc80e449a80a85404bc2e4972b0674
+Author: Sunny <ambaraiya@gmail.com>
+Date:   Mon Nov 23 20:46:38 2020 -0800
+
+    file added to commit
+
+commit f1e0915d6ba659aad102779e996c678b3c282c44
+Author: Sunny <ambaraiya@gmail.com>
+Date:   Mon Nov 23 19:59:03 2020 -0800
+
+    final push commit
+
+commit 084856377da2e4127b480781c3eceb9a9329cf7f
+Author: Sunny <ambaraiya@gmail.com>
+Date:   Mon Nov 23 19:56:04 2020 -0800
+
+    commiting file after adding, modifying
+
+commit 5c86fc1fb5e893d69663cab28e8bc08d71e6e2da
+Author: Sunny <ambaraiya@gmail.com>
+Date:   Mon Nov 23 19:53:54 2020 -0800
+
+    added a file & comiiting
+
+commit 38e8ecb6d8d707018157dfd945aaf6649eaf30b4
+Merge: 4d9e262 841b804
+Author: Sunny <ambaraiya@gmail.com>
+Date:   Mon Nov 23 19:49:53 2020 -0800
+
+    Merge branch 'main' of https://github.com/muralicloud/UI into main
+
+commit 4d9e262452a04249f14a1be023787751b63088e6
+Author: Sunny <ambaraiya@gmail.com>
+Date:   Mon Nov 23 19:47:30 2020 -0800
+
+    deleted
+
+commit 98cd4123d005edd8efd318c427abbaf786c61d5a
+Author: Sunny <ambaraiya@gmail.com>
+Date:   Mon Nov 23 19:45:18 2020 -0800
+
+     deleting file
+
+commit 841b8041c7f683c3291ed736022a7c4644db90b7
+Author: murali <murali.protek@gmail.com>
+Date:   Mon Nov 23 17:36:36 2020 -0800
+
+    assignment
+
+commit dc05d11428c84ac7b4367e282dbe4fe8b0ea4760
+Author: murali <murali.protek@gmail.com>
+Date:   Mon Nov 23 17:29:38 2020 -0800
+
+    Initial commit
