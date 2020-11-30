@@ -24,4 +24,13 @@
 7. git commit
 8. git push
 
+6. Merging testNewBranch to Main
+1. git checkout to main
+2. git status
+3. git pull origin testNewBranch
+4. Made changes to txt file
+5. git add
+6. fit commit
+7. git push
+
 
