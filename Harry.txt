@@ -13,3 +13,15 @@
       a. Modified
       b. Staged
       c. Committed
+
+5. Created a new branch
+1. git pull from original branch -- main
+2. git branch testNewBranch
+3. git status
+4. git checkout to testNewBranch
+5. Made changes to any file
+6. git add
+7. git commit
+8. git push
+
+
