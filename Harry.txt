@@ -14,8 +14,6 @@
       b. Staged
       c. Committed
 
-7. Adding this line to merge with conflicts
-
 5. Created a new branch
 1. git pull from original branch -- main
 2. git branch testNewBranch
@@ -35,5 +33,5 @@
 6. fit commit
 7. git push
 
-
+7. added this line in test branch to create conflict and commit to test branch
 
