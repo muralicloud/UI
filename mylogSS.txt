@@ -1,0 +1,88 @@
+*   merged main1
+|\  
+| * this is main1 branch1 commit3
+| * this is main1 branch1 commit
+| * this is main1 branch commit
+* | this is main1 branch1 commit5
+|/  
+* midify1 commiit msg
+* midify commiit msg
+* added newindex.html
+* added header
+* fnone added to file
+*   Merge branch 'demobranch1' into main
+|\  
+| * commiting file
+* | Merge branch 'demobranch1' into main
+|\| 
+| * commit for conflict
+* | added
+* |   Merge branch 'demobranch' into main
+|\ \  
+| * | file updated
+| * | Merge branch 'demobranch1' into demobranch
+| |\| 
+* | |   Merge branch 'demobranch1' into main
+|\ \ \  
+| | |/  
+| |/|   
+| * | revised main branch title
+* | |   Merge branch 'demobranch' into main
+|\ \ \  
+| | |/  
+| |/|   
+| * | adding again
+* | |   Merge branch 'demobranch1' into main
+|\ \ \  
+| | |/  
+| |/|   
+| * | title changed to demobranch1
+* | | revised main branch title
+|/ /  
+* / revising file to main branch
+|/  
+*  title added
+* changes made to file
+* New file added Shome.html
+*   Merge branch 'main' of https://github.com/muralicloud/UI into main
+|\  
+| * my file
+| * merge testNewBranch to Main
+| * created new branch
+* |   msg
+|\ \  
+| * | msg
+| * | msg
+| * | commit msd
+* | | msg
+* | | commit
+| |/  
+|/|   
+* |   hghg
+|\ \  
+| * | msg
+| * | commiting
+* | | msg
+|/ /  
+* | FIle updated
+* | Cloud
+* | Add files via upload
+* | Create mylogsk.txt
+* | answer to item A
+* | delete rtf file
+* | answers to item A
+* | answers to itemA
+* | Create kunwar,s A part Ans.txt
+* | file stashed check
+|/  
+* file added to commit
+* final push commit
+* commiting file after adding, modifying
+* added a file & comiiting
+*   Merge branch 'main' of https://github.com/muralicloud/UI into main
+|\  
+| * assignment
+* | deleted
+* |  deleting file
+|/  
+* Initial commit
