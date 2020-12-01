@@ -1,6 +1,6 @@
 public class someclass {
 	public void fnOne() {
-			System.out.println("I couldn't repair your brakes, so I made your horn louder]");
+			System.out.println("on the other hand you have diff fingers]");
 		
 	}
 	public static void main(String[] args) {
