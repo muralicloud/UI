@@ -1,0 +1,404 @@
+Git assignment for “MERGE with CONFLICT”
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
+    <title>This is my first page1 title that i am changing to modify5</title>
+=======
+    <title>This is my main1 branch1 page3 title that i am changing to modify3</title>
+>>>>>>> main1
+</head>
+<body>
+    
+</body>
+</html>
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~
+$ pwd
+/c/Users/lizar
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~
+$ git clone https://github.com/muralicloud/UI.git
+Cloning into 'UI'...
+remote: Enumerating objects: 162, done.
+remote: Counting objects: 100% (162/162), done.
+remote: Compressing objects: 100% (91/91), done.
+Receiving remote: Total 162 (delta 80), reused 134 (delta 66), pack-reused 0
+Receiving objects: 100% (162/162), 5.65 MiB | 6.65 MiB/s, done.
+Resolving deltas: 100% (80/80), done.
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{beb8409f-b71a-11ea-aa5e-e4aaeab2ed9e}.TM.blf
+ NTUSER.DAT{beb8409f-b71a-11ea-aa5e-e4aaeab2ed9e}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{beb8409f-b71a-11ea-aa5e-e4aaeab2ed9e}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ UI/
+ Videos/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~
+$ cd UI
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$ ls
+ 56352                              'kunwar,s A part Ans.txt'
+'Answers for git assignment1.docx'   log.log
+'Cloud_Computing (1).pdf'            log.txt
+ Filebysunny.txt                     main
+'Git Assignment1.docx'               mergefile.txt
+ Harry.txt                           mylogsk.txt
+'Kunwar,s A part ans file.docx'      newfile.txt
+ README.md                           someclass.java
+ index.html
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$ git log --pretty=format:"%s" --graph > mylog.txt
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$ ls
+ 56352                              'kunwar,s A part Ans.txt'
+'Answers for git assignment1.docx'   log.log
+'Cloud_Computing (1).pdf'            log.txt
+ Filebysunny.txt                     main
+'Git Assignment1.docx'               mergefile.txt
+ Harry.txt                           mylog.txt
+'Kunwar,s A part ans file.docx'      mylogsk.txt
+ README.md                           newfile.txt
+ index.html                          someclass.java
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$ git push
+Everything up-to-date
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$ git push origin
+Everything up-to-date
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$ PWD
+/c/Users/lizar/UI
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        mylog.txt
+        newindex.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$ git add .
+warning: LF will be replaced by CRLF in mylog.txt.
+The file will have its original line endings in your working directory
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$ git commit -m "added newindex.html"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lizar@DESKTOP-R615JQ7.(none)')
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$ git config --global user.email "you@example.com"
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$ git config --global user.email "ambaraiya@gmail.com"
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$ git config --global user.name "Sunny"
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$ git commit -m "added newindex.html"
+[main f386211] added newindex.html
+ 2 files changed, 89 insertions(+)
+ create mode 100644 mylog.txt
+ create mode 100644 newindex.html
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$ GIT STATUS
+fatal: cannot handle STATUS as a builtin
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   newindex.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$ git add .
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$ git commit -m "midify commiit msg"
+[main 4dd1f66] midify commiit msg
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$ git add .
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$ git commit -m "midify1 commiit msg"
+[main d3b14d3] midify1 commiit msg
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$ git checkout -b main1
+Switched to a new branch 'main1'
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main1)
+$ git commit -a -m "this is main1 branch commit"
+[main1 72f9a1d] this is main1 branch commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main1)
+$ git commit -a -m "this is main1 branch1 commit"
+[main1 eb52165] this is main1 branch1 commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main1)
+$ git commit -a -m "this is main1 branch1 commit3"
+[main1 fc7b2de] this is main1 branch1 commit3
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main1)
+$ git status
+On branch main1
+nothing to commit, working tree clean
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$ git branch
+* main
+  main1
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$ git merge main1
+error: Your local changes to the following files would be overwritten by merge:
+        newindex.html
+Please commit your changes or stash them before you merge.
+Aborting
+Updating d3b14d3..fc7b2de
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$ git commit -a -m "this is main1 branch1 commit5"
+[main 29ba9a9] this is main1 branch1 commit5
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$ git merge main1
+Auto-merging newindex.html
+CONFLICT (content): Merge conflict in newindex.html
+Automatic merge failed; fix conflicts and then commit the result.
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main|MERGING)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+        both modified:   newindex.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main|MERGING)
+$ git add .
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main|MERGING)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+        modified:   newindex.html
+
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main|MERGING)
+$ git commit -m "merged main1"
+[main 419d0e4] merged main1
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$ git log
+commit 419d0e48af1ab2d1a46b3dc42d38035710a8d3b2 (HEAD -> main)
+Merge: 29ba9a9 fc7b2de
+Author: Sunny <ambaraiya@gmail.com>
+Date:   Tue Dec 1 13:38:27 2020 -0800
+
+    merged main1
+
+commit 29ba9a9c1342854f801cd6b4c3b37c1f29e28e6a
+Author: Sunny <ambaraiya@gmail.com>
+Date:   Tue Dec 1 13:19:17 2020 -0800
+
+    this is main1 branch1 commit5
+
+commit fc7b2ded61f2d1158259272bc738def1b96ea1aa (main1)
+Author: Sunny <ambaraiya@gmail.com>
+Date:   Tue Dec 1 12:56:39 2020 -0800
+
+    this is main1 branch1 commit3
+
+commit eb521659dc5f6dfb0cbee4629f43f3843264d7d9
+Author: Sunny <ambaraiya@gmail.com>
+Date:   Tue Dec 1 12:55:40 2020 -0800
+
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$ <!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
+    <title>This is my first page1 title that i am changing to modify5</title>
+=======
+    <title>This is my main1 branch1 page3 title that i am changing to modify3</title>
+>>>>>>> main1
+</head>
+bash: !DOCTYPE: event not found
+<body>
+
+</body>
+</html>
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$ <html lang="en">
+bash: syntax error near unexpected token `newline'
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$ <head>
+bash: syntax error near unexpected token `newline'
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$     <meta charset="UTF-8">
+bash: syntax error near unexpected token `newline'
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+bash: syntax error near unexpected token `newline'
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$ <<<<<<< HEAD
+bash: syntax error near unexpected token `<<<'
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$     <title>This is my first page1 title that i am changing to modify5</title>
+bash: syntax error near unexpected token `newline'
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$ =======
+bash: =======: command not found
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$     <title>This is my main1 branch1 page3 title that i am changing to modify3</title>
+bash: syntax error near unexpected token `newline'
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$ >>>>>>> main1
+bash: syntax error near unexpected token `>>'
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$ </head>
+bash: syntax error near unexpected token `newline'
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$ <body>
+bash: syntax error near unexpected token `newline'
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$ </body>
+bash: syntax error near unexpected token `newline'
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$ </html>git config --global alias.gr 'log --pretty=format:"%s" --graph'
+bash: /html: No such file or directory
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$ git log --pretty=format:"%s" --graph > mylogSS.txt
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$ git log | clip
+
+lizar@DESKTOP-R615JQ7 MINGW64 ~/UI (main)
+$
+
