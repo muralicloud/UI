@@ -1,4 +1,4 @@
-Git assignment for “MERGE with CONFLICT”
+Git assignment for “MERGE with CONFLICT” File 
 
 <!DOCTYPE html>
 <html lang="en">
