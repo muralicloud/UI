@@ -1,8 +1,0 @@
-Hi I am adding the file to repo
-
-File added commited and modifying.
-
-final for push steps
-1-file added created using VI command
-2- File modified using VI command
-3- added using Add -A command and now final push
